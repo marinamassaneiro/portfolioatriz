@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+header, footer {
+  background-color: #e29578;
+  padding: 4vh 0 3vh;
+  color: white;
+  font-weight: 300;
+}
+
+header > h1 {
+  font-size: 3.5rem;
+}
+
+header > p {
+  margin-top: 2vh; 
+  font-size: 1.2rem;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin: 5vh 15vw 5vh 25vw;
+}
+
+.resumo {
+ padding: 1vh 5vw;
+ color: #d35122;
+ font-size: 1.3rem;
+ font-weight: 300;
+}
+
+.img-perfil {
+  width: 280px;
+}
+
+.curriculo {
+  display: flex;
+  margin: 15vh 15vw;
+  padding-bottom: 10vh;
+}
+
+.area {
+  background-color: #e29578;
+  padding: 3vh 0 2vh;
+  color: white;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+.itens-curriculo {
+  margin: 5vh 0;
+  color: #d35122;
+  font-size: 1.1rem;
+}
+
+footer {
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+  font-size: 1.2rem;
+}
+
+footer > p > a {
+  color: white;
+  font-weight: 500;
+}
